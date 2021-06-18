@@ -1,0 +1,224 @@
+header{
+    color: rgb(181,189,137);
+    font-size: 70px;
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+.i{
+    color: rgba(42, 68, 85, 0.781);
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+#d{
+    color: rgba(42, 68, 85, 0.781);
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+.orlist{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(236,145,146);
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: row-reverse;
+}
+button{
+    color: rgba(42, 68, 85, 0.781);
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+p{
+    color: rgba(42, 68, 85, 0.781);
+    font-style: oblique;
+    font-size: 25px;
+    line-height: 1.6;
+    font-family: 'Righteous', cuersive,sans-serif;
+    
+}
+li{ 
+    list-style-position: inside;
+    list-style-type: none;
+    line-height: 3;
+    color: white;
+    order:-1;
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+
+legend{
+    color: rgba(42, 68, 85, 0.781);
+    font-size: 30px;
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+a{
+    font-size: 100%;
+    font-weight: 800;
+    text-decoration: none;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+
+.boton{
+    text-align: center;
+}
+
+.cuadro{
+    text-align: center;
+}
+body{
+    background-image: linear-gradient(rgb(223,190,153),rgb(236,145,146)) ;
+    background-repeat: no-repeat;
+}
+#bod{
+    background-image: linear-gradient(rgb(181,189,137),rgb(114,158,161));
+    background-size: contain;
+}
+
+
+.baner{
+    color: black;
+    display: inline-block;
+    position: relative;
+    bottom: 45px;
+}
+.cuadros{
+    display: inline-block;
+}
+#publicar{
+    display: block; 
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+.buscar{
+    display: block;
+    width: 100%;
+}
+.cuadros{
+    display:inline-block;
+}
+#cuad{
+    display: block;
+
+}
+table{
+    display: inline-block;
+}
+#chat{
+    display: inline-block;
+    position: fixed;
+    bottom: 0px;
+    width: 350px;
+    height: 550px;
+    left: 70%;    
+}
+#li{
+    display:inline;
+    list-style-position:initial;
+}
+.list{
+    color: white;
+    display: inline-block;
+    border-right: solid 3px;
+    border-left: solid 3px;
+    background-color: rgb(219,83,117);
+    transition: 0.1s;
+    }
+.list:hover{
+    transform: translate(0px,-10px);
+    
+}
+.pag{
+    color: white;
+}
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#veterinarias{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+#caja{
+    display: grid;
+    background-image: linear-gradient(rgb(223,190,153),rgb(236,145,146));
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 75px 75px 200px 200px;
+    grid-template-areas:"area1 area1 area2"
+                        "area3 area3 area3"
+                        "area4 area6 area6"
+                        "area4 area5 area5";
+   
+}
+#cajatitulo{
+  
+    grid-area: area1 ;
+}
+#cajalog{
+    justify-self: flex-end;
+    grid-area:area2;
+}
+#cajanav{
+    
+    width: 100%;  
+    grid-area: area3;
+}
+#cajafiltro{
+    
+    grid-area: area4 ;
+    
+}
+#cajacoment{
+    
+    grid-area: area5 ;
+}
+#cajap{
+    
+    grid-area: area6;
+}
+textarea{
+    width: 100%;
+}
+#imgveterinaria{
+    order: -1;
+}
+#i{
+    order: -2;
+}
+img:hover{
+    transform:scale(1.1) ;
+}
+#arriba{
+    display: grid;
+    grid-template-columns: 33%, 33%, 33%;
+    grid-template-rows:10% ;
+    grid-template-areas:"login big regis";
+}
+#ingres{
+    grid-area: login;
+    justify-self: start;
+}
+#bigtitulo{
+    grid-area: big;
+    text-align: center;
+    font-family: 'Righteous', cuersive,sans-serif;
+    color: rgb(219,83,117);
+}
+#reg{
+  grid-area: regis;
+  width: 80px;
+  height: 60px;
+  justify-self: end;
+}
+#logo{
+    display:block;
+    padding-left:47% ;  
+}
+fieldset{
+    border: none;
+}
+label{
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+td{
+    font-family: 'Righteous', cuersive,sans-serif;
+}
