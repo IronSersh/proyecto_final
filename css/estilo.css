@@ -112,6 +112,7 @@ table{
     list-style-position:initial;
 }
 .list{
+    text-align: center;
     color: white;
     display: inline-block;
     border-right: solid 3px;
@@ -189,9 +190,9 @@ img:hover{
 }
 #arriba{
     display: grid;
-    grid-template-columns: 33%, 33%, 33%;
+    grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows:10% ;
-    grid-template-areas:"login big regis";
+    grid-template-areas:"login big big regis";
 }
 #ingres{
     grid-area: login;
@@ -205,14 +206,11 @@ img:hover{
 }
 #reg{
   grid-area: regis;
-  width: 80px;
+  
   height: 60px;
   justify-self: end;
 }
-#logo{
-    display:block;
-    padding-left:47% ;  
-}
+
 fieldset{
     border: none;
 }
