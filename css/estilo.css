@@ -127,13 +127,7 @@ table{
 .pag{
     color: white;
 }
-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: nowrap;
-}
+
 #veterinarias{
     display: flex;
     align-content: center;
@@ -188,27 +182,15 @@ textarea{
 img:hover{
     transform:scale(1.1) ;
 }
-#arriba{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows:10% ;
-    grid-template-areas:"login big big regis";
-}
-#ingres{
-    grid-area: login;
-    justify-self: start;
-}
+
 #bigtitulo{
-    grid-area: big;
     text-align: center;
     font-family: 'Righteous', cuersive,sans-serif;
     color: rgb(219,83,117);
 }
 #reg{
-  grid-area: regis;
-  
-  height: 60px;
-  justify-self: end;
+    display: flex;
+    align-items: end;
 }
 
 fieldset{
