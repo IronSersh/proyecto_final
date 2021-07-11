@@ -1,0 +1,51 @@
+@import "variavles.scss";
+body{
+    background-image: $fondoBody;
+}
+.titulo{
+        color: $titulos;
+        font-size:70px ;
+        font-family: 'Righteous', cuersive,sans-serif;
+}
+button{
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+
+
+p{
+    color: $parrafos;
+    font-size: 18px;
+    font-family: 'Righteous', cuersive,sans-serif;
+}
+section{
+    display: flex
+}
+div{
+    flex-direction:column;
+    width: 50%;
+    header{
+        flex-direction: row;
+        @extend .titulo;
+        color: $parrafos;
+        font-size: 70px;
+    }
+    
+    @for $doctores from 1 through 6{
+        .doc-#{$doctores}{
+            @extend header;
+            color:lighten($titulos, $doctores * 10%);
+            font-size: 30px;
+            list-style-type: none;
+        }
+    }     
+}
+
+aside{
+   flex-direction: column;
+    width: 50%;
+    align-items: center;
+    h1{
+        @extend .titulo;
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,57 @@
+body {
+  background-image: linear-gradient(#dfbe99, #ec9192); }
+
+.titulo, div header, div .doc-1, div .doc-2, div .doc-3, div .doc-4, div .doc-5, div .doc-6, aside h1 {
+  color: #b5bd89;
+  font-size: 70px;
+  font-family: 'Righteous', cuersive,sans-serif; }
+
+button {
+  font-family: 'Righteous', cuersive,sans-serif; }
+
+p {
+  color: rgba(42, 68, 85, 0.781);
+  font-size: 18px;
+  font-family: 'Righteous', cuersive,sans-serif; }
+
+section {
+  display: flex; }
+
+div {
+  flex-direction: column;
+  width: 50%; }
+  div header, div .doc-1, div .doc-2, div .doc-3, div .doc-4, div .doc-5, div .doc-6 {
+    flex-direction: row;
+    color: rgba(42, 68, 85, 0.781);
+    font-size: 70px; }
+  div .doc-1 {
+    color: #cacfaa;
+    font-size: 30px;
+    list-style-type: none; }
+  div .doc-2 {
+    color: #dee2ca;
+    font-size: 30px;
+    list-style-type: none; }
+  div .doc-3 {
+    color: #f3f4eb;
+    font-size: 30px;
+    list-style-type: none; }
+  div .doc-4 {
+    color: white;
+    font-size: 30px;
+    list-style-type: none; }
+  div .doc-5 {
+    color: white;
+    font-size: 30px;
+    list-style-type: none; }
+  div .doc-6 {
+    color: white;
+    font-size: 30px;
+    list-style-type: none; }
+
+aside {
+  flex-direction: column;
+  width: 50%;
+  align-items: center; }
+  aside h1 {
+    font-size: 25px; }
