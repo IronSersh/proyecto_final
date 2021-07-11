@@ -87,7 +87,9 @@ body{
 }
 .buscar{
     display: block;
-    width: 100%;
+    width: 80%;
+    margin:2%;
+    margin-left: 10%;
 }
 .cuadros{
     display:inline-block;
@@ -104,7 +106,7 @@ table{
     position: fixed;
     bottom: 0px;
     width: 350px;
-    height: 550px;
+    height: 350px;
     left: 70%;    
 }
 #li{
