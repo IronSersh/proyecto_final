@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet"> 
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 <body>
     <!--veterinarias en guardia-->
@@ -17,7 +20,6 @@
     <br>
     <fieldset id="cua">
         <div id="veterinarias">
-    <button id="i"><label for="isquiuerda">isquierda</label></button>
     <a href="pagina2-b.html">
     <img src="imagenes/veterinaria1.jpg" alt="foto de tienda destacada" height="100" width="150">
     </a>
@@ -27,30 +29,29 @@
     <a href="pagina2-b.html">
     <img id="imgveterinaria" src="imagenes/veterinaria3.jpg" alt="" height="100" width="150">
     </a>
-    <button id="d"><label for="derecha">derecha</label></button>
 </div>
+
 </fieldset>
     <!--lista de navegacion-->
-    <fieldset class="nav">
-        <legend>Navegacion</legend>
-        <ol class="orlist">  
-            <li class="list"><a class="pag" href="pagina1.html">
+     
+        <ol class="row">  
+            <li class="lista col"><a class="pag" href="pagina1.html">
                 <label for="pagina1">Tienda</label></a>
                 </li>
-             <li class="list"><a class="pag" href="pagina2.html">
+             <li class="lista col"><a class="pag" href="pagina2.html">
                 <label for="pagina2">Veterinaria</label></a>
             </li>
-            <li class="list"><a class="pag" href="pagina3.html">
+            <li class="lista col"><a class="pag" href="pagina3.html">
                 <label for="pagina3">InstaPet</label></a>
             </li>
-            <li class="list"> <a class="pag" href="index.html">
+            <li class="lista col"> <a class="pag" href="index.html">
                 <label for="">inicio</label>
             </a>
             </li>
         </ol>  
-    </fieldset>
     <aside>
         <!--veterinarias-->
+        <h1>veterinarias en tu zona</h1>
         <table>
             <tr>
                 <th>
@@ -109,5 +110,7 @@
     <form action="">
         <textarea name="" id="chat" cols="30" rows="10" placeholder="disnos tus inquietudes"></textarea>
     </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 </html>
