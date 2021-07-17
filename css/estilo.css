@@ -62,9 +62,7 @@ body{
     position: relative;
     bottom: 45px;
 }
-.cuadros{
-    display: inline-block;
-}
+
 #publicar{
     display: block; 
     font-family: 'Righteous', cuersive,sans-serif;
@@ -75,10 +73,7 @@ body{
     margin:2%;
     margin-left: 10%;
 }
-#cuad{
-    display: block;
 
-}
 table{
     display: inline-block;
 }
@@ -113,7 +108,16 @@ table{
 #veterinarias{
     display: flex;
     align-content: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width:600px){
+    #veterinarias{
+        display: flex;
+        flex-direction: column;
+    }
+    #chat{
+        display: none;
+    }
 }
 #caja{
     display: grid;
@@ -153,11 +157,32 @@ table{
     
     grid-area: area6;
 }
+@media only screen and (max-width:600px){
+    #caja{
+        display: grid;
+        background-image: linear-gradient(rgb(223,190,153),rgb(236,145,146));
+        grid-template-columns: 20% 60% 20%;
+        grid-template-rows: 75px 75px 200px 200px 200px 200px;
+        grid-template-areas:"area1 area1 area2"
+                            "area3 area3 area3"
+                            "area4 area4 area4"
+                            "area6 area6 area6"
+                            "area5 area5 area5"
+
+                            ;
+    }
+    #cajafiltro{
+        display: flex;
+        flex-direction: row;
+    }
+    .lista{
+        display: flex;
+        flex-direction: row;
+    }
+ 
+}
 textarea{
     width: 100%;
-}
-#imgveterinaria{
-    order: -1;
 }
 img:hover{
     transform:scale(1.1) ;
@@ -196,5 +221,12 @@ h3{
     font-family: 'Righteous', cuersive,sans-serif;
     color: rgb(181,189,137);
     font-size: 55px;
+}
+#registrarse{
+   justify-content: end;
+}
+
+.cuadros{
+    display:inline;
 }
 

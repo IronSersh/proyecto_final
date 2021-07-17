@@ -18,6 +18,7 @@ section {
   display: flex; }
 
 div {
+  display: flex;
   flex-direction: column;
   width: 50%; }
   div header, div .doc-1, div .doc-2, div .doc-3, div .doc-4, div .doc-5, div .doc-6 {
@@ -50,8 +51,14 @@ div {
     list-style-type: none; }
 
 aside {
+  display: flex;
   flex-direction: column;
   width: 50%;
   align-items: center; }
   aside h1 {
     font-size: 25px; }
+
+@media only screen and (max-width: 600px) {
+  section {
+    display: flex;
+    flex-direction: column; } }

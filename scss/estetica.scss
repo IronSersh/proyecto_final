@@ -21,6 +21,7 @@ section{
     display: flex
 }
 div{
+    display: flex;
     flex-direction:column;
     width: 50%;
     header{
@@ -41,7 +42,8 @@ div{
 }
 
 aside{
-   flex-direction: column;
+    display: flex;
+    flex-direction: column;
     width: 50%;
     align-items: center;
     h1{
@@ -49,3 +51,10 @@ aside{
         font-size: 25px;
     }
 }
+@media only screen and (max-width:600px){
+    section{
+      display: flex;
+      flex-direction: column;
+      
+    }
+  }
