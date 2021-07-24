@@ -2,7 +2,7 @@ body {
   background-image: linear-gradient(#dfbe99, #ec9192); }
 
 .titulo, div header, div .doc-1, div .doc-2, div .doc-3, div .doc-4, div .doc-5, div .doc-6, aside h1 {
-  color: #b5bd89;
+  color: #a8b464;
   font-size: 70px;
   font-family: 'Righteous', cuersive,sans-serif; }
 
@@ -26,19 +26,19 @@ div {
     color: rgba(42, 68, 85, 0.781);
     font-size: 70px; }
   div .doc-1 {
-    color: #cacfaa;
+    color: #bbc586;
     font-size: 30px;
     list-style-type: none; }
   div .doc-2 {
-    color: #dee2ca;
+    color: #cfd5a9;
     font-size: 30px;
     list-style-type: none; }
   div .doc-3 {
-    color: #f3f4eb;
+    color: #e2e6cb;
     font-size: 30px;
     list-style-type: none; }
   div .doc-4 {
-    color: white;
+    color: #f5f7ed;
     font-size: 30px;
     list-style-type: none; }
   div .doc-5 {

@@ -1,5 +1,5 @@
 header{
-    color: rgb(181,189,137);
+    color: rgb(168, 180, 100);
     font-size: 70px;
     font-family: 'Righteous', cuersive,sans-serif;
 }
@@ -97,6 +97,7 @@ table{
     border-left: solid 3px;
     background-color: rgb(219,83,117);
     transition: 0.1s;
+    width: 25%;
     }
 .lista:hover{
     transform: translate(0px,-10px);
@@ -117,6 +118,26 @@ table{
     }
     #chat{
         display: none;
+    }
+    header{
+        color: rgb(168, 180, 100);
+        font-size: 50px;
+        font-family: 'Righteous', cuersive,sans-serif;
+    }
+    h1{
+        font-family: 'Righteous', cuersive,sans-serif;
+        color: rgba(42, 68, 85, 0.781);
+        font-size: 40px;
+    }
+    h2{
+        font-family: 'Righteous', cuersive,sans-serif;
+        color: rgba(42, 68, 85, 0.781);
+        font-size: 30px;
+    }
+    h3{
+        font-family: 'Righteous', cuersive,sans-serif;
+        color: rgba(42, 68, 85, 0.781);
+        font-size: 45px;
     }
 }
 #caja{
@@ -209,17 +230,17 @@ label{
 }
 h1{
     font-family: 'Righteous', cuersive,sans-serif;
-    color: rgb(181,189,137);
+    color: rgba(42, 68, 85, 0.781);
     font-size: 50px;
 }
 h2{
     font-family: 'Righteous', cuersive,sans-serif;
-    color: rgb(181,189,137);
+    color: rgba(42, 68, 85, 0.781);
     font-size: 40px;
 }
 h3{
     font-family: 'Righteous', cuersive,sans-serif;
-    color: rgb(181,189,137);
+    color: rgba(42, 68, 85, 0.781);
     font-size: 55px;
 }
 #registrarse{
