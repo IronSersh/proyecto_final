@@ -3,7 +3,7 @@ body{
     background-image: $fondoBody;
 }
 .titulo{
-        color: $titulos;
+        color: $botones;
         font-size:70px ;
         font-family: 'Righteous', cuersive,sans-serif;
 }
@@ -27,14 +27,14 @@ div{
     header{
         flex-direction: row;
         @extend .titulo;
-        color: $parrafos;
+        color: $botones;
         font-size: 70px;
     }
     
     @for $doctores from 1 through 6{
         .doc-#{$doctores}{
             @extend header;
-            color:lighten($titulos, $doctores * 10%);
+            color:$parrafos;
             font-size: 30px;
             list-style-type: none;
         }

@@ -1,5 +1,5 @@
 header{
-    color: rgb(168, 180, 100);
+    color: rgb(219,83,117);
     font-size: 70px;
     font-family: 'Righteous', cuersive,sans-serif;
 }
@@ -7,10 +7,10 @@ header{
 .orlist{
     display: flex;
     flex-direction: row;
-    background-color: rgb(236,145,146);
     align-items: center;
     justify-content: space-evenly;
     flex-flow: row-reverse;
+    margin-right: 2px;
 }
 button{
     color: rgba(42, 68, 85, 0.781);
@@ -120,7 +120,7 @@ table{
         display: none;
     }
     header{
-        color: rgb(168, 180, 100);
+        color: rgb(219,83,117);
         font-size: 50px;
         font-family: 'Righteous', cuersive,sans-serif;
     }
@@ -177,6 +177,7 @@ table{
 #caja-form{
     
     grid-area: area6;
+    margin-right: 10px;
 }
 @media only screen and (max-width:600px){
     #caja{
@@ -204,6 +205,7 @@ table{
 }
 textarea{
     width: 100%;
+    ma-right: 2px;
 }
 img:hover{
     transform:scale(1.1) ;
@@ -251,3 +253,6 @@ h3{
     display:inline;
 }
 
+.row{
+    padding-right: 2rem;
+}

@@ -2,7 +2,7 @@ body {
   background-image: linear-gradient(#dfbe99, #ec9192); }
 
 .titulo, div header, div .doc-1, div .doc-2, div .doc-3, div .doc-4, div .doc-5, div .doc-6, aside h1 {
-  color: #a8b464;
+  color: #db5375;
   font-size: 70px;
   font-family: 'Righteous', cuersive,sans-serif; }
 
@@ -23,30 +23,30 @@ div {
   width: 50%; }
   div header, div .doc-1, div .doc-2, div .doc-3, div .doc-4, div .doc-5, div .doc-6 {
     flex-direction: row;
-    color: rgba(42, 68, 85, 0.781);
+    color: #db5375;
     font-size: 70px; }
   div .doc-1 {
-    color: #bbc586;
+    color: rgba(42, 68, 85, 0.781);
     font-size: 30px;
     list-style-type: none; }
   div .doc-2 {
-    color: #cfd5a9;
+    color: rgba(42, 68, 85, 0.781);
     font-size: 30px;
     list-style-type: none; }
   div .doc-3 {
-    color: #e2e6cb;
+    color: rgba(42, 68, 85, 0.781);
     font-size: 30px;
     list-style-type: none; }
   div .doc-4 {
-    color: #f5f7ed;
+    color: rgba(42, 68, 85, 0.781);
     font-size: 30px;
     list-style-type: none; }
   div .doc-5 {
-    color: white;
+    color: rgba(42, 68, 85, 0.781);
     font-size: 30px;
     list-style-type: none; }
   div .doc-6 {
-    color: white;
+    color: rgba(42, 68, 85, 0.781);
     font-size: 30px;
     list-style-type: none; }
 

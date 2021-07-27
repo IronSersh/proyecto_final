@@ -1,0 +1,10 @@
+agrege estas heywords
+veterinaria,mascotas,perros,pagtos,guardia 24hs,fotos,petshop,alimento
+tienda,mascotas,perros,pagtos,petshop,alimento,productos
+veterinaria,mascotas,guardia 24hs,alimento
+mascotas,perros,pagtos,fotos,petshop
+
+titulos se mantubieron ya que concuerdan con lo planteado
+
+se agrego descripcion 
+"una plataforma para mascotas con petshop, veterinarias y todo lo que tu mascota necesite"
