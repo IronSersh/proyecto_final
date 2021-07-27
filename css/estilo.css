@@ -205,7 +205,6 @@ table{
 }
 textarea{
     width: 100%;
-    ma-right: 2px;
 }
 img:hover{
     transform:scale(1.1) ;
