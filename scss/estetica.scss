@@ -14,7 +14,7 @@ button{
 
 p{
     color: $parrafos;
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Righteous', cuersive,sans-serif;
 }
 section{
@@ -58,3 +58,67 @@ aside{
       
     }
   }
+fieldset{
+    flex-grow: 50%;
+    border: none;
+    li{
+        @extend p ;
+        font-size: 25px
+    }
+}
+td{
+   @extend p ;
+   text-align: start;
+}
+th{
+    @extend td ;
+}
+.titulo-2{
+    @extend .titulo ;
+    font-size: 30px;
+    display: flex;
+    img{
+        flex-direction: row;
+    }
+}
+
+.lista{
+    display: inline-block;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: $botones;
+}
+#grid{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas:"area-1 area-4"
+                        "area-2 area-4"
+                        "area-3 area-4";
+}
+#bloke-4{
+    grid-area: area-1;
+}
+#bloke-4{
+    grid-area: area-2;
+}
+#bloke-4{
+    grid-area: area-3;
+}
+#bloke-4{
+    grid-area: area-4;
+}
+@media only screen and (max-width:600px){
+    #grid{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 400px 400px 400px 400px;
+        grid-template-areas:"area-1"
+                            "area-2"
+                            "area-3" 
+                            "area-4";
+    }
+}
